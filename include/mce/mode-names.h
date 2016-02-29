@@ -257,5 +257,43 @@
  * @since v1.10.54
  */
 #define MCE_POWERKEY_EVENT_DOUBLE_PRESS       (2u)
+/**
+ * GESTURE EVENT for camera gesture
+ *
+ * @since vx.xx.xx
+ */
+#define MCE_GESTURE_EVENT_CAMERA     "camera"
+/**
+ * GESTURE EVENT for music previous track gesture
+ *
+ * @since vx.xx.xx
+ */
+#define MCE_GESTURE_EVENT_MUSIC_PREV_TRACK     "prev-track"
+/**
+ * GESTURE EVENT for music next track gesture
+ *
+ * @since vx.xx.xx
+ */
+#define MCE_GESTURE_EVENT_MUSIC_NEXT_TRACK     "next-track"
+/**
+ * GESTURE EVENT for music play/pause gesture
+ *
+ * @since vx.xx.xx
+ */
+#define MCE_GESTURE_EVENT_MUSIC_PLAY_PAUSE     "play-pause"
+/**
+ * GESTURE EVENT for flashlight gesture
+ *
+ * @since vx.xx.xx
+ */
+#define MCE_GESTURE_EVENT_FLASHLIGHT     "flashlight"
+/**
+ * GESTURE EVENT for voicecall gesture
+ *
+ * @since vx.xx.xx
+ */
+#define MCE_GESTURE_EVENT_VOICECALL     "voicecall"
+
+
 
 #endif /* _MCE_MODE_NAMES_H_ */

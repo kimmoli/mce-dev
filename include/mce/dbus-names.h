@@ -593,6 +593,14 @@
  */
 #define MCE_CONFIG_CHANGE_SIG		"config_change_ind"
 
+/** Notify everyone that mce has captured a touchscreen gesture
+ *
+ * @since vx.xx.x
+ *
+ * @param Gesture name as DBUS_TYPE_STRING
+ */
+#define MCE_GESTURE_EVENT_SIG    "gesture_event_ind"
+
 
 /*@}*/
 
